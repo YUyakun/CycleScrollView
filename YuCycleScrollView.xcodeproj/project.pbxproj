@@ -13,6 +13,9 @@
 		010BB225248A506F00DA4A40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010BB223248A506F00DA4A40 /* Main.storyboard */; };
 		010BB227248A507100DA4A40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010BB226248A507100DA4A40 /* Assets.xcassets */; };
 		010BB22A248A507100DA4A40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010BB228248A507100DA4A40 /* LaunchScreen.storyboard */; };
+		010BB235248A508100DA4A40 /* CYcleScrollCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010BB232248A508100DA4A40 /* CYcleScrollCollectionViewCell.swift */; };
+		010BB236248A508100DA4A40 /* CYclePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010BB233248A508100DA4A40 /* CYclePageControl.swift */; };
+		010BB237248A508100DA4A40 /* CYcleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010BB234248A508100DA4A40 /* CYcleScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		010BB226248A507100DA4A40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		010BB229248A507100DA4A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		010BB22B248A507100DA4A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010BB232248A508100DA4A40 /* CYcleScrollCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYcleScrollCollectionViewCell.swift; sourceTree = "<group>"; };
+		010BB233248A508100DA4A40 /* CYclePageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYclePageControl.swift; sourceTree = "<group>"; };
+		010BB234248A508100DA4A40 /* CYcleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYcleScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		010BB21C248A506F00DA4A40 /* YuCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				010BB231248A508100DA4A40 /* CYcleScrollView */,
 				010BB21D248A506F00DA4A40 /* AppDelegate.swift */,
 				010BB21F248A506F00DA4A40 /* SceneDelegate.swift */,
 				010BB221248A506F00DA4A40 /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				010BB22B248A507100DA4A40 /* Info.plist */,
 			);
 			path = YuCycleScrollView;
+			sourceTree = "<group>";
+		};
+		010BB231248A508100DA4A40 /* CYcleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				010BB232248A508100DA4A40 /* CYcleScrollCollectionViewCell.swift */,
+				010BB233248A508100DA4A40 /* CYclePageControl.swift */,
+				010BB234248A508100DA4A40 /* CYcleScrollView.swift */,
+			);
+			path = CYcleScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010BB237248A508100DA4A40 /* CYcleScrollView.swift in Sources */,
+				010BB236248A508100DA4A40 /* CYclePageControl.swift in Sources */,
+				010BB235248A508100DA4A40 /* CYcleScrollCollectionViewCell.swift in Sources */,
 				010BB222248A506F00DA4A40 /* ViewController.swift in Sources */,
 				010BB21E248A506F00DA4A40 /* AppDelegate.swift in Sources */,
 				010BB220248A506F00DA4A40 /* SceneDelegate.swift in Sources */,
