@@ -16,7 +16,7 @@ class ViewController: UIViewController {
 
 
         let cycleScrollView = CYcleScrollView(frame: CGRect(x: 0, y: 100, width: view.frame.size.width, height: 200))
-        cycleScrollView.images = ["1","2","3"]
+        cycleScrollView.images = ["1","2","3","1","2","3","1","2","3"]
         view.addSubview(cycleScrollView)
         
     }
